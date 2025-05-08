@@ -22,7 +22,8 @@ header {
         width: 80%;
         margin: 0 auto;
     }
-    .genere{
+
+    .genere {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -44,15 +45,91 @@ header {
         img {
             padding: 150px;
         }
+
         max-width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .icons{
+
+    .icons {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.card {
+    width: calc(100%/3);
+    padding: 30px;
+    position: relative;
+    .nascoste{
+        display:none;
+    }
+
+    .rel {
+        position: relative;
+    }
+
+    i {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        padding: 10px;
+        background-color: var(--color-text-hr);
+    }
+    span{
+            position: absolute;
+            background-color:green;
+            left:0px;
+            bottom: 60px;
+            color: var(--color-text-hr);
+    
+        }
+
+    p {
+        .red {
+            position: absolute;
+            background-color: red;
+            bottom: 60px;
+            color: var(--color-text-hr);
+
+        }
+
+        .green {
+            background-color: green;
+            position: absolute;
+            bottom: 60px;
+            left: 40px;
+            color: var(--color-text-hr);
+        }
+
+        
+    }
+
+    
+}
+
+.card:hover{
+    .nascoste{
+        display: block;
+    }
+    .visibili{
+        display: none;
+    }
+    .fa-solid.fa-heart{
+        color: red;
+    }
+
+
 
 }
