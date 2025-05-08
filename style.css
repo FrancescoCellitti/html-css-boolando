@@ -1,5 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --color-text-hr: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    color: var(--color-text-hr);
+    height: 50px;
+    background-color: orange;
+
+    nav {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .genere{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        list-style: none;
+
+        li {
+            margin-left: 10px;
+        }
+    }
+
+
+    .box-logo {
+        img {
+            padding: 150px;
+        }
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
