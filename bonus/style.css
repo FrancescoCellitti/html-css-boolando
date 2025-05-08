@@ -59,79 +59,24 @@ header {
     }
 
 }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
+img{
+    max-width: 100%;
+    width: 200px;
+    margin-top: 10px;
+}
+main{
+text-align: center;
+margin-bottom: 150px;
+}
+.principale{
     max-width: 80%;
     margin: 0 auto;
-    position: relative;
-}
-
-.card {
-    width: calc(100%/3);
-    padding: 30px;
-    position: relative;
-    .nascoste{
-        display:none;
-    }
-
-    .rel {
-        position: relative;
-    }
-
-    i {
-        position: absolute;
-        right: 0;
-        top: 10px;
-        padding: 10px;
-        background-color: var(--color-text-hr);
-    }
-    span{
-            position: absolute;
-            background-color:green;
-            left:0px;
-            bottom: 60px;
-            color: var(--color-text-hr);
-    
-        }
-
-    p {
-        .red {
-            position: absolute;
-            background-color: red;
-            bottom: 60px;
-            color: var(--color-text-hr);
-
-        }
-
-        .green {
-            background-color: green;
-            position: absolute;
-            bottom: 60px;
-            left: 40px;
-            color: var(--color-text-hr);
-        }
-
-        
-    }
-
+    display: flex;
+    justify-content: center;
     
 }
 
-.card:hover{
-    .nascoste{
-        display: block;
-    }
-    .visibili{
-        display: none;
-    }
-    .fa-solid.fa-heart{
-        color: red;
-    }
-    
 
-}
 footer{
     background-color: black;
     color:white;
